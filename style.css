@@ -8,8 +8,19 @@ body {
 header {
     background-color: #1f2933;
     color: white;
-    padding: 30px;
+    padding: 40px;
     text-align: center;
+}
+
+.cv-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 section {
@@ -26,17 +37,32 @@ h2 {
     padding-bottom: 5px;
 }
 
-.skills ul {
-    list-style: none;
-    padding: 0;
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
-.skills li {
-    display: inline-block;
-    background: #e5e7eb;
-    padding: 8px 12px;
-    margin: 6px;
+.projects {
+    display: grid;
+    gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #e5e7eb;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.project-card img {
+    width: 100%;
     border-radius: 5px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2563eb;
+    text-decoration: none;
     font-weight: bold;
 }
 
